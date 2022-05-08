@@ -11,6 +11,8 @@
 		A55BAE7A2825962A002F9986 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A55BAE792825962A002F9986 /* ContentView.swift */; };
 		A55BAE7C2825962B002F9986 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A55BAE7B2825962B002F9986 /* Assets.xcassets */; };
 		A55BAE7F2825962B002F9986 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A55BAE7E2825962B002F9986 /* Preview Assets.xcassets */; };
+		A55BAE86282596A5002F9986 /* LightView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A55BAE85282596A5002F9986 /* LightView.swift */; };
+		A55BAE8828264B16002F9986 /* TurnButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = A55BAE8728264B16002F9986 /* TurnButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,8 @@
 		A55BAE792825962A002F9986 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		A55BAE7B2825962B002F9986 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A55BAE7E2825962B002F9986 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		A55BAE85282596A5002F9986 /* LightView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LightView.swift; sourceTree = "<group>"; };
+		A55BAE8728264B16002F9986 /* TurnButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TurnButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +57,8 @@
 			children = (
 				A55BAE772825962A002F9986 /* TrafficLightSwiftUIApp.swift */,
 				A55BAE792825962A002F9986 /* ContentView.swift */,
+				A55BAE85282596A5002F9986 /* LightView.swift */,
+				A55BAE8728264B16002F9986 /* TurnButton.swift */,
 				A55BAE7B2825962B002F9986 /* Assets.xcassets */,
 				A55BAE7D2825962B002F9986 /* Preview Content */,
 			);
@@ -137,7 +143,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A55BAE8828264B16002F9986 /* TurnButton.swift in Sources */,
 				A55BAE7A2825962A002F9986 /* ContentView.swift in Sources */,
+				A55BAE86282596A5002F9986 /* LightView.swift in Sources */,
 				A55BAE782825962A002F9986 /* TrafficLightSwiftUIApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
